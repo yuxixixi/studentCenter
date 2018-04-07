@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>user center</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- color CSS -->
+    <link href="css/colors/blue700.css" id="theme" rel="stylesheet">
+    
+</head>
+
+<body>
+   
+    <div id="wrapper">
+        <!-- Navigation -->
+   
+        <!-- Left navbar-header -->
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse slimscrollsidebar">
+                <p class="centered"><a href="profile.html"><img src="images/genu.jpg" class="img-circle" width="60"></a></p>
+                <ul class="nav" id="side-menu">
+
+                  <h5 class="centered ">小明</h5>
+                    <li style="padding: 10px 0 0;">
+                        <a href="index.html" class="waves-effect"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i><span class="hide-menu">我的课程</span></a>
+                    </li>
+                    <li>
+                        <a href="study.html" class="waves-effect"><i class="fa fa-table fa-fw" aria-hidden="true"></i><span class="hide-menu">学习历史</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="buyhistory.html" class="waves-effect"><i class="fa fa-columns fa-fw" aria-hidden="true"></i><span class="hide-menu">消费历史</span></a>
+                    </li>
+                    <li>
+                        <a href="student.html" class="waves-effect"><i class="fa fa-user fa-fw" aria-hidden="true"></i><span class="hide-menu">个人信息</span></a>
+                    </li>
+                    
+                  
+                </ul>
+              
+            </div>
+        </div>
+        <!-- Left navbar-header end -->
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-custom" style="background: #fff">
+                    <!-- row -->
+                    <ul id="myTab" class="row nav" style="padding-left: 25px;padding-right: 25px;">
+                        <!--col -->
+                        <li class="col-lg-4 col-md-4 col-sm-12 col-xs-12 active">
+                            <a href="#Blockly" class="subject-box" data-toggle="tab">
+                                <img class="subject-icon" src="images/blockly.png">
+                                <span class="text-muted vs">编程入门 Blockly</span> 
+                            </a>
+                        </li>
+                        <!-- /.col -->
+                        <!--col -->
+                        <li class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <a href="#Python" class="subject-box" data-toggle="tab">
+                                <img class="subject-icon" src="images/python.png">
+                                <span class="text-muted vs">趣味编程 Python</span> 
+                            </a>
+                        </li>
+                        <!-- /.col -->
+                        <!--col -->
+                        <li class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="subject-box active">
+                                <img class="subject-icon" src="images/award.png">
+                                <span class="text-muted vs">信息学奥赛 C/C++</span> 
+                            </div>
+                        </li>
+                        <!-- /.col -->
+                    </ul>
+                    <!-- /.row -->
+            </div>
+            <div class="tab-content container-fluid">
+                <!-- 模态框（Modal） -->
+                <div class="modal fade" id="classIntro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" 
+                                        aria-hidden="true">×
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">
+                                    课程介绍
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                <img src="" class="class-img">
+                                <h5></h5>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+                <!-- 模态框（Modal） -->
+                <div class="modal fade" id="classBuy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" 
+                                        aria-hidden="true">×
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">
+                                    订单支付
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                <h5>订单标题：</h5>
+                                <h5>订单标题：</h5>
+                                <h5>1680</h5>
+                            </div>
+                            
+                            <button type="button" class="btn btn-primary">
+                                支付
+                            </button>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+                <div class="row tab-pane fade in active" id="Blockly">
+
+                    <!--col -->
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="white-box class-box">
+                            <div class="row">
+                                <img class="class-img" src="images/class.png">
+                            </div>
+                            <div class="class-option row">
+                                
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <a href="" class="btn btn-block btn-rounded waves-effect waves-light btn-blue">课程介绍</a>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <a href="" class="btn btn-block btn-rounded waves-effect waves-light btn-blue">进入课堂</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col -->
+                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="white-box class-box">
+                            <div class="row">
+                                <img class="class-img" src="images/class.png">
+                            </div>
+                            <div class="class-option row">
+                                
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <button data-toggle="modal"  data-target="#classIntro" class="btn btn-block btn-rounded waves-effect waves-light btn-blue btn-intro">课程介绍</button>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <button data-toggle="modal" data-target="#classStart" class="btn btn-block btn-rounded waves-effect waves-light btn-blue btn-start">进入课堂</button>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="white-box class-box">
+                            <div class="row">
+                                <img class="class-img" src="images/class.png">
+                            </div>
+                            <div class="class-option row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <button data-toggle="modal"  data-target="#classIntro" class="btn btn-block btn-rounded waves-effect waves-light btn-blue btn-intro">课程介绍</button>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <button data-toggle="modal" data-target="#classBuy" class="btn btn-block btn-rounded waves-effect waves-light btn-blue btn-start">购买课程</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row tab-pane fade" id="Python" >
+
+                                    <!--col -->
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <div class="white-box class-box">
+                                            <div class="row">
+                                                <img class="class-img" src="images/class.png">
+                                            </div>
+                                            <div class="class-option row">
+                                                
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <a href="" class="btn btn-block btn-rounded waves-effect waves-light btn-blue">课程介绍</a>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <a href="" class="btn btn-block btn-rounded waves-effect waves-light btn-blue">进入课堂</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /.col -->
+                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <div class="white-box class-box">
+                                            <div class="row">
+                                                <img class="class-img" src="images/class.png">
+                                            </div>
+                                            <div class="class-option row">
+                                                
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <button data-toggle="modal"  data-target="#classIntro" class="btn btn-block btn-rounded waves-effect waves-light btn-blue btn-intro">课程介绍</button>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <button data-toggle="modal" data-target="#classStart" class="btn btn-block btn-rounded waves-effect waves-light btn-blue btn-start">进入课堂</button>
+                                                </div>
+                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <div class="white-box class-box">
+                                            <div class="row">
+                                                <img class="class-img" src="images/class.png">
+                                            </div>
+                                            <div class="class-option row">
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <button data-toggle="modal"  data-target="#classIntro" class="btn btn-block btn-rounded waves-effect waves-light btn-blue btn-intro">课程介绍</button>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <button data-toggle="modal" data-target="#classBuy" class="btn btn-block btn-rounded waves-effect waves-light btn-blue btn-start">购买课程</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                </div>
+            </div>
+            <!-- /.container-fluid -->
+            <footer class="footer text-center"> hello world</footer>
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+ 
+</body>
+
+</html>
