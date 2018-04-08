@@ -1577,7 +1577,8 @@ table.dataTable thead .sorting:after {
 .white-box {
 	background: #fff;
 	padding: 25px;
-	margin-bottom: 15px
+	margin-bottom: 15px;
+
 }
 
 .white-box .box-title {
@@ -10701,6 +10702,7 @@ table.dataTable.display tbody tr.even>.sorting_1, table.dataTable.display tbody 
 }
 .class-box{
 	padding: 25px 25px 0;
+	width: 280px;
 }
 .subject-icon{
 	height: 30px;
